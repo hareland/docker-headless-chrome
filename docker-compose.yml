@@ -1,0 +1,7 @@
+version: '3'
+services:
+  headless-chrome:
+    container_name: headless-chrome
+    build: .
+    ports:
+      - '9222:9222'
